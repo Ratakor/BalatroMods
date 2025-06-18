@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "SKIP_DIRS=.git smods lovely"
+set "SKIP_DIRS=.git smods lovely 3xCredits"
 
 for /d %%f in (*) do (
     set "skip=no"

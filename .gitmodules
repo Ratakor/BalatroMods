@@ -55,3 +55,9 @@
 [submodule "JoyousSpring"]
 	path = JoyousSpring
 	url = https://github.com/nh6574/JoyousSpring
+[submodule "3xCredits"]
+	path = 3xCredits
+	url = https://github.com/AuroraKy/3xCredits
+[submodule "Maximus"]
+	path = Maximus
+	url = https://github.com/the-Astra/Maximus

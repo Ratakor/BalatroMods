@@ -12,8 +12,3 @@
 
 I recommand to manually add `.lovelyignore` files to each mods you don't want
 before first launching the game with this mod pack.
-
-[Maximus](https://github.com/the-Astra/Maximus) is also a great mod but I
-decided not to add it (yet) because it requires too many dependencies
-([3xCredits](https://github.com/AuroraKy/3xCredits) and
-[Talisman](https://github.com/SpectralPack/Talisman)).
