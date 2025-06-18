@@ -1,0 +1,13 @@
+{
+  "id": "Ecstasy",
+  "name": "Ecstasy",
+  "display_name": "Ecstasy",
+  "author": ["Ratakor"],
+  "description": "A collection of new items.",
+  "prefix": "ecstasy",
+  "main_file": "main.lua",
+  "priority": 0,
+  "badge_colour": "BE93F9",
+  "version": "0.1.0",
+  "dependencies": ["Steamodded (>=1.0.0~BETA-0614a)"]
+}
