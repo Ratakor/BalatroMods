@@ -49,9 +49,6 @@
 [submodule "Partner-API"]
 	path = Partner-API
 	url = https://github.com/Icecanno/Partner-API
-[submodule "JokerHub"]
-	path = JokerHub
-	url = https://github.com/sup3p/JokerHub
 [submodule "Finity"]
 	path = Finity
 	url = https://github.com/frangnosquest/Finity
