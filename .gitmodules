@@ -61,3 +61,6 @@
 [submodule "Maximus"]
 	path = Maximus
 	url = https://github.com/the-Astra/Maximus
+[submodule "Rofflatro"]
+	path = Rofflatro
+	url = https://github.com/MamiKeRiko/Rofflatro
