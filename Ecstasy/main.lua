@@ -10,3 +10,7 @@ end
 
 load_dir("backs")
 load_dir("misc")
+
+if next(SMODS.find_mod("CardSleeves")) then
+  load_dir("sleeves")
+end
