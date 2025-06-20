@@ -64,3 +64,6 @@
 [submodule "Fusion-Jokers"]
 	path = Fusion-Jokers
 	url = https://github.com/Ratakor/Fusion-Jokers
+[submodule "Virtues"]
+	path = Virtues
+	url = https://github.com/someone23832/Virtues
