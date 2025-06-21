@@ -1,5 +1,18 @@
 return {
     descriptions = {
+        Joker = {
+            j_ecstasy_roland = {
+                name = "Roland",
+                text = {
+                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
+                    "every time a consumable is used",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)",
+                },
+                unlock = {
+                    "{E:1,s:1.3}?????",
+                }
+            },
+        },
         Back = {
             b_ecstasy_legendary = {
                 name = "Legendary Deck",

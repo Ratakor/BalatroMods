@@ -8,6 +8,7 @@ local function load_dir(dir)
     end
 end
 
+load_dir("jokers")
 load_dir("backs")
 load_dir("misc")
 

@@ -9,9 +9,11 @@ CardSleeves.Sleeve {
         local key = self.key
         if self.get_current_deck_key() == "b_ecstasy_legendary" then
             key = key .. "_alt"
+            self.config.init_joker = false
             self.config.joker_boss_blind = true
         else
             self.config.init_joker = true
+            self.config.joker_boss_blind = false
         end
         return {
             key = key,
