@@ -1,5 +1,5 @@
 CardSleeves.Sleeve {
-    key = "ecstasy_legendary",
+    key = "legendary",
     atlas = "Sleeves",
     pos = { x = 0, y = 0 },
     unlocked = false,

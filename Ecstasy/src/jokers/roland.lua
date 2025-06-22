@@ -1,5 +1,5 @@
 SMODS.Joker {
-    key = "ecstasy_roland",
+    key = "roland",
     atlas = "Jokers",
     pos = { x = 0, y = 0 },
     soul_pos = { x = 0, y = 1 },
@@ -30,7 +30,7 @@ SMODS.Joker {
             }
         end
 
-        if context.using_consumable and not context.blueprint then
+        if context.using_consumeable and not context.blueprint then
             card.ability.extra.xmult = card.ability.extra.xmult + card.ability.extra.bonus
             return {
                 focus = card,

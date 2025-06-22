@@ -1,5 +1,5 @@
 SMODS.Back {
-    key = "ecstasy_legendary",
+    key = "legendary",
     atlas = "Backs",
     pos = { x = 0, y = 0 },
     loc_vars = function()

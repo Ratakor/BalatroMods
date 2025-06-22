@@ -67,3 +67,6 @@
 [submodule "Virtues"]
 	path = Virtues
 	url = https://github.com/someone23832/Virtues
+[submodule "ArtBox"]
+	path = ArtBox
+	url = https://github.com/SadCubeArt/ArtBox
