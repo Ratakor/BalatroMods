@@ -67,3 +67,12 @@
 [submodule "ArtBox"]
 	path = ArtBox
 	url = https://github.com/SadCubeArt/ArtBox
+[submodule "Cardsauce"]
+	path = Cardsauce
+	url = https://github.com/BarrierTrio/Cardsauce
+[submodule "Ortalab"]
+	path = Ortalab
+	url = https://github.com/Eremel/Ortalab
+[submodule "Handsome-Devils-Vanilla-mod-"]
+	path = Handsome-Devils-Vanilla-mod-
+	url = https://github.com/AlexanderAndersonAmenAmen/Handsome-Devils-Vanilla-mod-
