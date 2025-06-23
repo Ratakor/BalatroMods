@@ -13,9 +13,6 @@
 [submodule "FlushHotkeys"]
 	path = FlushHotkeys
 	url = https://github.com/Agoraaa/FlushHotkeys
-[submodule "SoireeMusicPack"]
-	path = SoireeMusicPack
-	url = https://github.com/Undercoverer/SoireeMusicPack
 [submodule "Pokermon"]
 	path = Pokermon
 	url = https://github.com/InertSteak/Pokermon

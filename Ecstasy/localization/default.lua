@@ -39,5 +39,15 @@ return {
                 }
             }
         }
-    }
+    },
+    misc = {
+        dictionary = {
+            b_music_selector = "Soundtrack",
+            ml_music_selector_opt = {
+                "Balatro OST by LouisF",
+                "Bonne Soirée by Vongola",
+                "Monkey Business by Bombaflex",
+            },
+        },
+    },
 }
