@@ -1,7 +1,7 @@
 return {
     descriptions = {
         Joker = {
-            j_ecstasy_roland = {
+            j_pills_roland = {
                 name = "Roland",
                 text = {
                     "This Joker gains {X:mult,C:white} X#1# {} Mult",
@@ -14,7 +14,7 @@ return {
             },
         },
         Back = {
-            b_ecstasy_legendary = {
+            b_pills_legendary = {
                 name = "Legendary Deck",
                 text = {
                     "Start run with an",
@@ -23,14 +23,14 @@ return {
             }
         },
         Sleeve = {
-            sleeve_ecstasy_legendary = {
+            sleeve_pills_legendary = {
                 name = "Legendary Sleeve",
                 text = {
                     "Start run with an",
                     "{V:1}Eternal {E:1,C:legendary}Legendary{} Joker",
                 }
             },
-            sleeve_ecstasy_legendary_alt = {
+            sleeve_pills_legendary_alt = {
                 name = "Legendary Sleeve",
                 text = {
                     "{C:green}#1# in #2#{} chance to create a",

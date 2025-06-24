@@ -3,11 +3,11 @@ CardSleeves.Sleeve {
     atlas = "Sleeves",
     pos = { x = 0, y = 0 },
     unlocked = false,
-    unlock_condition = { deck = "b_ecstasy_legendary", stake = "stake_black" },
+    unlock_condition = { deck = "b_pills_legendary", stake = "stake_black" },
     config = { legendary_odds = 10 },
     loc_vars = function(self)
         local key = self.key
-        if self.get_current_deck_key() == "b_ecstasy_legendary" then
+        if self.get_current_deck_key() == "b_pills_legendary" then
             key = key .. "_alt"
             self.config.init_joker = false
             self.config.joker_boss_blind = true
@@ -43,7 +43,7 @@ CardSleeves.Sleeve {
     calculate = function(self, sleeve, context)
         if self.config.joker_boss_blind then
             if context.context == "eval" and (G.GAME.last_blind and G.GAME.last_blind.boss) and G.jokers then
-                if pseudorandom("ecstasy_legendary") < G.GAME.probabilities.normal / self.config.legendary_odds then
+                if pseudorandom("pills_legendary") < G.GAME.probabilities.normal / self.config.legendary_odds then
                     local card = create_card("Joker", G.jokers, true, 4, nil, nil, nil, "")
                     card:set_eternal(true)
                     card:set_edition({ negative = true }, true, false)
