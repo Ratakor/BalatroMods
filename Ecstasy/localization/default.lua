@@ -47,6 +47,7 @@ return {
                 "Balatro OST by LouisF",
                 "Bonne Soirée by Vongola",
                 "Monkey Business by Bombaflex",
+                "B-Side by Afterlight",
             },
         },
     },

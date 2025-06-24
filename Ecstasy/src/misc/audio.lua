@@ -1,5 +1,5 @@
-local music_nums = { balatro = 1, soiree = 2, business = 3 }
-local music_names = { "balatro", "soiree", "business" }
+local music_nums = { balatro = 1, soiree = 2, business = 3, bside = 4 }
+local music_names = { "balatro", "soiree", "business", "bside" }
 
 if not G.SETTINGS.music_selection then
     G.SETTINGS.music_selection = "balatro"
@@ -28,13 +28,13 @@ function G.UIDEF.settings_tab(tab)
     return settings_tab
 end
 
--- Bonne Soirée
+-- Bonne Soirée https://www.youtube.com/watch?v=KiIXRr_GGCw
 
 SMODS.Sound({
     key = "soiree_music1",
     path = "soiree_music1.ogg",
     select_music_track = function()
-        return (G.SETTINGS.music_selection == "soiree") and 10 or false
+        return (G.SETTINGS.music_selection == "soiree") and 4 or false
     end,
 })
 
@@ -43,7 +43,7 @@ SMODS.Sound({
     path = "soiree_music2.ogg",
     select_music_track = function()
         return (G.SETTINGS.music_selection == "soiree" and G.booster_pack_sparkles and not G.booster_pack_sparkles.REMOVED) and
-        11 or false
+        5 or false
     end,
 })
 
@@ -52,7 +52,7 @@ SMODS.Sound({
     path = "soiree_music3.ogg",
     select_music_track = function()
         return (G.SETTINGS.music_selection == "soiree" and G.booster_pack_meteors and not G.booster_pack_meteors.REMOVED) and
-            11 or false
+            5 or false
     end,
 })
 
@@ -60,7 +60,7 @@ SMODS.Sound({
     key = "soiree_music4",
     path = "soiree_music4.ogg",
     select_music_track = function()
-        return (G.SETTINGS.music_selection == "soiree" and G.shop and not G.shop.REMOVED) and 11 or false
+        return (G.SETTINGS.music_selection == "soiree" and G.shop and not G.shop.REMOVED) and 5 or false
     end,
 })
 
@@ -68,17 +68,17 @@ SMODS.Sound({
     key = "soiree_music5",
     path = "soiree_music5.ogg",
     select_music_track = function()
-        return (G.SETTINGS.music_selection == "soiree" and G.GAME.blind and G.GAME.blind.boss) and 11 or false
+        return (G.SETTINGS.music_selection == "soiree" and G.GAME.blind and G.GAME.blind.boss) and 5 or false
     end,
 })
 
--- Monkey Business
+-- Monkey Business https://www.youtube.com/watch?v=V3ps8wvrmxw
 
 SMODS.Sound({
     key = "business_music1",
     path = "business_music1.ogg",
     select_music_track = function()
-        return (G.SETTINGS.music_selection == "business") and 10 or false
+        return (G.SETTINGS.music_selection == "business") and 4 or false
     end,
 })
 
@@ -87,7 +87,7 @@ SMODS.Sound({
     path = "business_music2.ogg",
     select_music_track = function()
         return (G.SETTINGS.music_selection == "business" and G.booster_pack_sparkles and not G.booster_pack_sparkles.REMOVED) and
-            11 or false
+            5 or false
     end,
 })
 
@@ -96,7 +96,7 @@ SMODS.Sound({
     path = "business_music3.ogg",
     select_music_track = function()
         return (G.SETTINGS.music_selection == "business" and G.booster_pack_meteors and not G.booster_pack_meteors.REMOVED) and
-            11 or false
+            5 or false
     end,
 })
 
@@ -104,7 +104,7 @@ SMODS.Sound({
     key = "business_music4",
     path = "business_music4.ogg",
     select_music_track = function()
-        return (G.SETTINGS.music_selection == "business" and G.shop and not G.shop.REMOVED) and 11 or false
+        return (G.SETTINGS.music_selection == "business" and G.shop and not G.shop.REMOVED) and 5 or false
     end,
 })
 
@@ -112,7 +112,61 @@ SMODS.Sound({
     key = "business_music5",
     path = "business_music5.ogg",
     select_music_track = function()
-        return (G.SETTINGS.music_selection == "business" and G.GAME.blind and G.GAME.blind.boss) and 11 or false
+        return (G.SETTINGS.music_selection == "business" and G.GAME.blind and G.GAME.blind.boss) and 5 or false
+    end,
+})
+
+-- B-Side https://www.youtube.com/watch?v=_u8tHrRMNG8
+
+SMODS.Sound({
+    pitch = 1,
+    volume = 1,
+    key = "bside_music1",
+    path = "bside_music1.ogg",
+    select_music_track = function()
+        return (G.SETTINGS.music_selection == "bside") and 4 or false
+    end,
+})
+
+SMODS.Sound({
+    pitch = 1,
+    volume = 1,
+    key = "bside_music2",
+    path = "bside_music2.ogg",
+    select_music_track = function()
+        return (G.SETTINGS.music_selection == "bside" and G.booster_pack_sparkles and not G.booster_pack_sparkles.REMOVED) and
+            5 or false
+    end,
+})
+
+SMODS.Sound({
+    pitch = 1,
+    volume = 1,
+    key = "bside_music3",
+    path = "bside_music3.ogg",
+    select_music_track = function()
+        return (G.SETTINGS.music_selection == "bside" and G.booster_pack_meteors and not G.booster_pack_meteors.REMOVED) and
+            5 or false
+    end,
+})
+
+SMODS.Sound({
+    pitch = 1,
+    volume = 1,
+    key = "bside_music4",
+    path = "bside_music4.ogg",
+    select_music_track = function()
+        return (G.SETTINGS.music_selection == "bside" and G.shop and not G.shop.REMOVED) and 5 or false
+    end,
+})
+
+SMODS.Sound({
+    pitch = 1,
+    volume = 1,
+    key = "bside_music5",
+    path = "bside_music5.ogg",
+    select_music_track = function()
+        return (G.SETTINGS.music_selection == "bside" and G.GAME.blind and G.GAME.blind.boss) and 5 or false
     end,
 })
 
