@@ -11,7 +11,7 @@ SMODS.Joker {
     perishable_compat = true,
     config = {
         extra = {
-            bonus = 0.2,
+            bonus = 0.25,
             xmult = 1,
         },
     },
