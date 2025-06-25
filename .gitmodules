@@ -76,3 +76,21 @@
 [submodule "JimbosMoonVacation"]
 	path = JimbosMoonVacation
 	url = https://github.com/heavyParsnip/JimbosMoonVacation
+[submodule "Buffoonery"]
+	path = Buffoonery
+	url = https://github.com/pinkmaggit-hub/Buffoonery
+[submodule "NeatoJokers"]
+	path = NeatoJokers
+	url = https://github.com/neatoqueen/NeatoJokers
+[submodule "JankJonklers"]
+	path = JankJonklers
+	url = https://github.com/spikeof2010/JankJonklers
+[submodule "Lucky-Rabbit"]
+	path = Lucky-Rabbit
+	url = https://github.com/Trif3ctal/Lucky-Rabbit
+[submodule "UnStable"]
+	path = UnStable
+	url = https://github.com/kirbio/UnStable
+[submodule "luckyjimbos"]
+	path = luckyjimbos
+	url = https://github.com/MamiKeRiko/luckyjimbos
